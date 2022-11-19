@@ -1,0 +1,190 @@
+/* ---------------------- */
+/* ---global settings---- */
+/* ---------------------- */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    background: #fafafa;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* -------------------- */
+/* ---page structure--- */
+/* -------------------- */
+#container {
+    max-width: 780px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#instagram-phone{
+    margin-right: 30px;
+}
+
+#instagram-access{
+    flex-basis: 360px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media(max-width:880px){
+    #instagram-phone{
+        display: none;
+    }
+}
+
+/* ----------------------------- */
+/* --sign-in, sign-up and apps-- */
+/* ----------------------------- */
+
+#sign-in, #sign-up {
+    background: #fff;
+    padding: 20px 40px;
+    border: solid 1px #dbdbdb;
+}
+
+#sign-in {
+    margin-bottom: 10px;
+}
+
+
+.instagram-logo img {
+    width: 175px;
+}
+
+#sign-in-form input{
+    width: 100%;
+}
+
+.form-item{
+    font-size: 0.7em;
+    text-indent: 9px;
+    letter-spacing: 0.8px ;
+    background: #fafafa;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+.form-item:focus{
+    outline: none;
+    border-color: #acabab;
+}
+
+.form-button{
+    font-weight: bold;
+    color: #fff;
+    background: #b2dffc;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 8px 0px;
+    margin: 8px 0px 0px 0px;
+    transition: 0.2s;
+}
+
+.form-button:hover{
+    cursor: pointer;
+    background: #0095F6;
+}
+
+.divisor{
+    margin: 10px 0px 20px 0px;
+    display: flex;
+}
+
+.divisor div{
+    color: #747474;
+    margin: 0px 10px;
+}
+.divisor hr{
+    flex-basis: 100%;
+    align-self: center;
+    color: #e0e0e0;
+}
+
+.facebook-login{
+    margin-bottom: 15px;
+}
+
+.facebook-login i{
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.facebook-login a{
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #385185;
+}
+
+.forgot-password a{
+    font-size: 0.75em;
+    color: #385185;
+}
+
+#sign-up{
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+#sign-up a{
+    font-weight: 600;
+    color: #0095f6;
+}
+
+#instagram-apps h3{
+    font-size: 0.9em;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+#instagram-apps img {
+    width: 135px;
+}
+
+/* -------------------------- */
+/* ----------footer--------- */
+/* ------------------------- */
+footer{
+    text-align: center;
+    flex-basis: 100%;
+}
+#footer-nav{
+    margin: 80px 0px 40px 0px;
+    font-size: 0.8em;
+}
+
+#footer-nav *{
+    color: #8e8e8e;
+}
+
+#footer-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+#footer-nav a{
+    display: inline-block;
+    padding: 4px 8px;
+}
+
+#footer-nav select{
+    font-size: 0.9em;
+    border: none;
+    margin-right: 10px;
+}
